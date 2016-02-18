@@ -9,10 +9,11 @@
 <body>
 <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
 	<div class="mdl-tabs__tab-bar">
-		<a href="#desiderata-panel" class="mdl-tabs__tab is-active"><i class="material-icons mdl-list__item-avatar">person</i></a>
+		<a href="#desiderata-panel" class="mdl-tabs__tab is-active">Desiderata</a>
 		<a href="#vocations-panel" class="mdl-tabs__tab">Vocations</a>
 		<a href="#avocations-panel" class="mdl-tabs__tab">Avocations</a>
-		<a href="#tasks-panel" class="mdl-tabs__tab"><i class="material-icons mdl-list__item-avatar">schedule</i></a>
+		<a href="#tasks-panel" class="mdl-tabs__tab">Time</a>
+		<a href="#tasks-panel" class="mdl-tabs__tab">Things</a>
 	</div>
 
 	<div class="mdl-tabs__panel is-active" id="desiderata-panel">
@@ -65,7 +66,19 @@
 			<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">2 (4 phone)</div>
 		</div>
 	</div>
-	<div class="mdl-tabs__panel" id="targaryens-panel">
+	<div class="mdl-tabs__panel" id="avocations-panel">
+		<ul>
+			<li>Viserys</li>
+			<li>Daenerys</li>
+		</ul>
+	</div>
+	<div class="mdl-tabs__panel" id="time-panel">
+		<ul>
+			<li>Viserys</li>
+			<li>Daenerys</li>
+		</ul>
+	</div>
+	<div class="mdl-tabs__panel" id="things-panel">
 		<ul>
 			<li>Viserys</li>
 			<li>Daenerys</li>
