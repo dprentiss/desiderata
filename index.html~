@@ -4,41 +4,89 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
 <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
-<link rel='stylesheet' href='./desiderata.css'>
+<link rel='stylesheet' href='./css/desiderata.css'>
 </head>
 <body>
-<div id='title-nav-side'>
-	<h1>Desiderata</h1>
-	<h2>I want to...</h2>
-	<div id='table-of-contents'>
-		<ul>
-			<li>be a good husband</li>
-			<li>be a good neighbor</li>
-			<li>be happy</li>
-			<li>be a good person</li>
-			<li>spend time with my loved ones</li>
-			<li>an engineer<li>
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+	<div class="mdl-tabs__tab-bar">
+		<a href="#desiderata-panel" class="mdl-tabs__tab is-active"><i class="material-icons mdl-list__item-avatar">person</i></a>
+		<a href="#vocations-panel" class="mdl-tabs__tab">Vocations</a>
+		<a href="#avocations-panel" class="mdl-tabs__tab">Avocations</a>
+		<a href="#tasks-panel" class="mdl-tabs__tab"><i class="material-icons mdl-list__item-avatar">schedule</i></a>
+	</div>
+
+	<div class="mdl-tabs__panel is-active" id="desiderata-panel">
+		<ul class="mdl-list">
+			<li class="mdl-list__item">
+			<span class="mdl-list__item-primary-content">
+				<span>Compassion</span>
+			</span>
+			</li>
+			<li class="mdl-list__item">
+			<span class="mdl-list__item-primary-content">
+				<span>Integrity</span>
+			</span>
+			</li>
+			<li class="mdl-list__item">
+			<span class="mdl-list__item-primary-content">
+				<span>Excellence</span>
+			</span>
+			</li>
 		</ul>
 	</div>
-	<h2>I want to be...</h2>
-	<div>
-		<ul>
-			<li>happy</li>
-			<li>virtuous</li>
-			<li>wise</li>
-		</ul>
+	<div class="mdl-tabs__panel" id="vocations-panel">
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+			<div class="mdl-cell mdl-cell--1-col">1</div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col">4</div>
+			<div class="mdl-cell mdl-cell--4-col">4</div>
+			<div class="mdl-cell mdl-cell--4-col">4</div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--6-col">6</div>
+			<div class="mdl-cell mdl-cell--4-col">4</div>
+			<div class="mdl-cell mdl-cell--2-col">2</div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">6 (8 tablet)</div>
+			<div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">4 (6 tablet)</div>
+			<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">2 (4 phone)</div>
+		</div>
 	</div>
-	<h2>Virtues</h2>
-	<div>
+	<div class="mdl-tabs__panel" id="targaryens-panel">
 		<ul>
-			<li>compassion</li>
-			<li>integrity</li>
-			<li>excellence</li>
+			<li>Viserys</li>
+			<li>Daenerys</li>
 		</ul>
 	</div>
 </div>
-<div id='todo-side'>
-	<h2>To Do</h2>
-</div>
-</body>
+<footer class="mdl-mini-footer">
+	<div class="mdl-mini-footer__left-section">
+		<div class="mdl-logo">
+			More Information
+		</div>
+		<ul class="mdl-mini-footer__link-list">
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Privacy and Terms</a></li>
+			<li><a href="#">User Agreement</a></li>
+		</ul>
+	</div>
+	<div class="mdl-mini-footer__right-section">
+		<button class="mdl-mini-footer__social-btn"></button>
+		<button class="mdl-mini-footer__social-btn"></button>
+		<button class="mdl-mini-footer__social-btn"></button>
+	</div>
+</footer>
 </html>

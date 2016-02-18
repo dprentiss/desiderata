@@ -1,4 +1,5 @@
 #body {
+	padding: 200px;
 	position: relative;
 }
 #title-nav-side {
