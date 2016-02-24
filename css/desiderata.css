@@ -4,3 +4,6 @@
 .mdl-list__item {
     padding: 8px;
 }
+.virtue-card {
+	min-height: 100px;
+}
