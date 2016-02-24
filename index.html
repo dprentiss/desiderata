@@ -1,184 +1,181 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
-<script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
-<link rel='stylesheet' href='./css/desiderata.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+    <link rel='stylesheet' href='./css/desiderata.css'>
 </head>
 
 <body>
 
-<!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-		<header class="mdl-layout__header">
-				<div class="mdl-layout__header-row">
-						<!-- Title -->
-						<span class="mdl-layout-title">Desiderata</span>
-						<!-- Add spacer, to align navigation to the right -->
-						<div class="mdl-layout-spacer"></div>
-						<!-- Navigation. We hide it in small screens. -->
-						<nav class="mdl-navigation mdl-layout--large-screen-only">
-								<a class="mdl-navigation__link" href="">Link</a>
-								<a class="mdl-navigation__link" href="">Link</a>
-								<a class="mdl-navigation__link" href="">Link</a>
-								<a class="mdl-navigation__link" href="">Link</a>
-						</nav>
-				</div>
-		</header>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Desiderata</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                </nav>
+            </div>
+        </header>
 
-		<div class="mdl-layout__drawer">
-				<span class="mdl-layout-title">Title</span>
-				<nav class="mdl-navigation">
-						<a class="mdl-navigation__link" href="">Link</a>
-						<a class="mdl-navigation__link" href="">Link</a>
-						<a class="mdl-navigation__link" href="">Link</a>
-						<a class="mdl-navigation__link" href="">Link</a>
-				</nav>
-		</div>
-		<main class="mdl-layout__content">
-		<div class="page-content">
-				<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-						<div class="mdl-tabs__tab-bar">
-								<a href="#virtues-panel" class="mdl-tabs__tab is-active">Virtues</a>
-								<a href="#vocations-panel" class="mdl-tabs__tab">Vocations</a>
-								<a href="#avocations-panel" class="mdl-tabs__tab">Avocations</a>
-								<a href="#schedule-panel" class="mdl-tabs__tab">Schedule</a>
-								<a href="#inventory-panel" class="mdl-tabs__tab">Inventory</a>
-						</div>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#virtues-panel" class="mdl-tabs__tab is-active">Virtues</a>
+                        <a href="#vocations-panel" class="mdl-tabs__tab">Vocations</a>
+                        <a href="#avocations-panel" class="mdl-tabs__tab">Avocations</a>
+                        <a href="#schedule-panel" class="mdl-tabs__tab">Schedule</a>
+                        <a href="#inventory-panel" class="mdl-tabs__tab">Inventory</a>
+                    </div>
 
-						<div class="mdl-tabs__panel is-active" id="virtues-panel">
-								<div class="mdl-grid">
-										<div class="mdl-cell mdl-cell--4-col">
-												<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-														<div class="mdl-card__title">
-																<h2 class="mdl-card__title-text">Compassion</h2>
-														</div>
-														<div class="mdl-card__supporting-text">
-																"Do unto others as you would have them do unto you."
-														</div>
-														<div class="mdl-card__actions mdl-card--border">
-																<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    <div class="mdl-tabs__panel is-active" id="virtues-panel">
+                        <ul class="demo-list-item mdl-list">
+                            <li class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Compassion</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                "Do unto others as you would have them do unto you."
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                        </span>
+                            </li>
+                            <li class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Integrity</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                "Do unto others as you would have them do unto you."
+                            </div>
+                                <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                        </span>
+                            </li>
+                            <li class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Excellence</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                "Do unto others as you would have them do unto you."
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 																		Get Started
 																</a>
-														</div>
-														<div class="mdl-card__menu">
-																<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-																		<i class="material-icons">share</i>
-																</button>
-														</div>
-												</div>
-										</div>
-										<div class="mdl-cell mdl-cell--4-col">
-												<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-														<div class="mdl-card__title">
-																<h2 class="mdl-card__title-text">Integrity</h2>
-														</div>
-														<div class="mdl-card__supporting-text">
-																"Do unto others as you would have them do unto you."
-														</div>
-														<div class="mdl-card__actions mdl-card--border">
-																<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    </span>
+                            </li>
+                        </ul>
+
+                        <div class="mdl-tabs__panel" id="vocations-panel">
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--4-col">
+                                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__title">
+                                            <h2 class="mdl-card__title-text">Welcome</h2>
+                                        </div>
+                                        <div class="mdl-card__supporting-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...
+                                        </div>
+                                        <div class="mdl-card__actions mdl-card--border">
+                                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
 																		Get Started
 																</a>
-														</div>
-														<div class="mdl-card__menu">
-																<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-																		<i class="material-icons">share</i>
-																</button>
-														</div>
-												</div>
-										</div>
-										<div class="mdl-cell mdl-cell--4-col">
-												<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-														<div class="mdl-card__title">
-																<h2 class="mdl-card__title-text">Excellence</h2>
-														</div>
-														<div class="mdl-card__supporting-text">
-																"Do unto others as you would have them do unto you."
-														</div>
-														<div class="mdl-card__actions mdl-card--border">
-																<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-																		Get Started
-																</a>
-														</div>
-														<div class="mdl-card__menu">
-																<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-																		<i class="material-icons">share</i>
-																</button>
-														</div>
-												</div>
-										</div>
-								</div>
-						</div>
+                                        </div>
+                                        <div class="mdl-card__menu">
+                                            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                <i class="material-icons">share</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col">4</div>
+                                <div class="mdl-cell mdl-cell--4-col">4</div>
+                            </div>
+                        </div>
 
-						<div class="mdl-tabs__panel" id="vocations-panel">
-								<div class="mdl-grid">
-										<div class="mdl-cell mdl-cell--4-col">
-												<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-														<div class="mdl-card__title">
-																<h2 class="mdl-card__title-text">Welcome</h2>
-														</div>
-														<div class="mdl-card__supporting-text">
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-																Mauris sagittis pellentesque lacus eleifend lacinia...
-														</div>
-														<div class="mdl-card__actions mdl-card--border">
-																<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-																		Get Started
-																</a>
-														</div>
-														<div class="mdl-card__menu">
-																<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-																		<i class="material-icons">share</i>
-																</button>
-														</div>
-												</div>
-										</div>
-										<div class="mdl-cell mdl-cell--4-col">4</div>
-										<div class="mdl-cell mdl-cell--4-col">4</div>
-								</div>
-						</div>
+                        <div class="mdl-tabs__panel" id="avocations-panel">
+                            <ul>
+                                <li>Viserys</li>
+                                <li>Daenerys</li>
+                            </ul>
+                        </div>
 
-						<div class="mdl-tabs__panel" id="avocations-panel">
-								<ul>
-										<li>Viserys</li>
-										<li>Daenerys</li>
-								</ul>
-						</div>
+                        <div class="mdl-tabs__panel" id="schedule-panel">
+                            <ul>
+                                <li>Viserys</li>
+                                <li>Daenerys</li>
+                            </ul>
+                        </div>
 
-						<div class="mdl-tabs__panel" id="schedule-panel">
-								<ul>
-										<li>Viserys</li>
-										<li>Daenerys</li>
-								</ul>
-						</div>
+                        <div class="mdl-tabs__panel" id="inventory-panel">
+                            <ul>
+                                <li>Viserys</li>
+                                <li>Daenerys</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <footer class="mdl-mini-footer">
+                        <div class="mdl-mini-footer__left-section">
+                            <div class="mdl-logo">
+                                More Information
+                            </div>
+                            <ul class="mdl-mini-footer__link-list">
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Privacy and Terms</a></li>
+                                <li><a href="#">User Agreement</a></li>
+                            </ul>
+                        </div>
+                        <div class="mdl-mini-footer__right-section">
+                            <button class="mdl-mini-footer__social-btn"></button>
+                            <button class="mdl-mini-footer__social-btn"></button>
+                            <button class="mdl-mini-footer__social-btn"></button>
+                        </div>
+                    </footer>
+                </div>
+        </main>
 
-						<div class="mdl-tabs__panel" id="inventory-panel">
-								<ul>
-										<li>Viserys</li>
-										<li>Daenerys</li>
-								</ul>
-						</div>
-				</div>
-				<footer class="mdl-mini-footer">
-						<div class="mdl-mini-footer__left-section">
-								<div class="mdl-logo">
-										More Information
-								</div>
-								<ul class="mdl-mini-footer__link-list">
-										<li><a href="#">Help</a></li>
-										<li><a href="#">Privacy and Terms</a></li>
-										<li><a href="#">User Agreement</a></li>
-								</ul>
-						</div>
-						<div class="mdl-mini-footer__right-section">
-								<button class="mdl-mini-footer__social-btn"></button>
-								<button class="mdl-mini-footer__social-btn"></button>
-								<button class="mdl-mini-footer__social-btn"></button>
-						</div>
-				</footer>
-		</div>
-		</main>
-		</html>
+</html>
